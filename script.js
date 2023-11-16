@@ -54,7 +54,7 @@ window.onload = ()=>{
             previewBox.classList.add("show");
             shadow.style.display = "block";
             closeIcon.onclick = ()=>{
-                newIndex = clickedImgIndex;
+                newIndex = clickedImgIndex; 
                 prevBtn.style.display = "block";
                 nextBtn.style.display = "block";
                 previewBox.classList.remove("show");
@@ -64,5 +64,4 @@ window.onload = ()=>{
         }
 
     }
-
 }
